@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR" rel="stylesheet">
+
+    <link href="./css_gleen/gleen_common.css" rel="stylesheet" type="text/css">
+    <link href="./css_gleen/gleen_header.css" rel="stylesheet" type="text/css">
+    <link href="./css_gleen/gleen_main.css" rel="stylesheet" type="text/css">
+    <link href="./css_gleen/gleen_footer.css" rel="stylesheet" type="text/css">
+
+    <script src="js_gleen/jquery-3.3.1.min.js"></script>
+    <script src="js_gleen/main_pic.js"></script>
+    <script src="js_gleen/top.js"></script>
+    <script src="js_gleen/nav.js"></script>
+
+    <title>글린공원</title>
+</head>
+
+<body>
+    <div class="m_wrap mobile">
+        <a href="#m_logo">
+            <div id="top">
+                <div id="top_top"><img src="images/top.png"></div>
+            </div>
+        </a>
+    </div>
+
+    <div class="wrap" class="desktop">
+        <a href="#main_main">
+            <div id="top">
+                <div id="top_top"><img src="images/top.png"></div>
+            </div>
+        </a>
+
+        <script>
+            $("#top").css("opacity", "0");
+
+            $(window).on("scroll", function () {
+                console.log($(window).scrollTop());
+                //만약에 스크롤이 800이상 커지면 #top이 나타내주고, 아니면 안보이게 하시오.
+                if ($(window).scrollTop() > 800) {
+                    $("#top").css("opacity", "1");
+                } else {
+                    $("#top").css("opacity", "0");
+                }
+            });
+        </script>
+        
+    </div>
+
+    <header>
+        <nav>
+            <div id="m_nav" class="m_wrap">
+                <div id="header_top" class="mobile">
+
+                    <div id="main">
+                        <div class="openbtn" onclick="openNav()">☰</div>
+                    </div>
+
+                    <a href="./gleen_index.html">
+                        <h1 id="m_logo"></h1>
+                    </a>
+
+                    <a href="https://www.instagram.com/gleenpark_cafe/" target="_blank" id="m_in"><img
+                            src="images/insta_2.png">
+                    </a>
+
+                </div>
+
+                <div id="mySidebar" class="sidebar mobile">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="./gleen_sub1.html">글린공원</a>
+                    <a href="./gleen_sub2.html">메뉴</a>
+                    <a href="./gleen_sub3.html">매장</a>
+                    <a href="./gleen_sub4.html">이벤트</a>
+                    <a href="./gleen_sub5.html">공지사항</a>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "180px";
+                        document.getElementById("main").style.marginLeft = "0px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
+
+            </div>
+
+            <div id="nav_back">
+                <div id="mynav" class="desktop wrap desk_nav">
+                    <a href="./gleen_index.html">
+                        <h1 id="logo"></h1>
+                    </a>
+
+                    <ul class="util_menu">
+                        <li><a href="http://zoolungzoolung.com/" target="_blank">주렁주렁 홈페이지 </a></li>
+                        <li id="ask"><a href="#">문의하기 </a></li>
+                        <li id="util_insta"><a href="https://www.instagram.com/gleenpark_cafe/" target="_blank"><img
+                                    src="./images/insta_2.png"></a></li>
+                    </ul>
+
+                    <ul id="mainMenu">
+
+                        <a href="./gleen_sub1.html">
+                            <li id="mainMenu0" class="main">글린공원
+                                <div class="M_line"></div>
+                            </li>
+                        </a>
+                        <a href="./gleen_sub2.html">
+                            <li id="mainMenu1" class="main">
+                                메뉴
+                                <div class="M_line"></div>
+                            </li>
+                        </a>
+
+                        <a href="./gleen_sub3.html">
+                            <li id="mainMenu2" class="main">
+                                매장
+                                <div class="M_line"></div>
+                            </li>
+                        </a>
+
+                        <a href="./gleen_sub4.html">
+                            <li id="mainMenu3" class="main">
+                                이벤트
+                                <div class="M_line"></div>
+                            </li>
+                        </a>
+
+                        <a href="./gleen_sub5.html">
+                            <li id="mainMenu4" class="main">
+                                공지사항
+                                <div class="M_line"></div>
+                            </li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="main_picture" class="mobile">
+            <div id="m_main_1" class="p_main"></div>
+            <div id="m_main_2" class="p_main"></div>
+            <div id="m_main_3" class="p_main"></div>
+        </div>
+
+        <div id="main_main" class="desktop">
+
+            <div id="main_pic1" class="main_pic">
+                <div class="main_title_1 main_title">Wellcome! <br>
+                    <span>Gleen Park</span>
+                </div>
+                <div class="main_line main_title">
+                </div>
+                <div class="main_title_2 main_title">
+                    글린공원에 오신것을 환영합니다!
+                </div>
+            </div>
+
+            <div id="main_pic2" class="main_pic">
+                <div class="main_title_1 main_title">
+                    어서와요 글린~
+                </div>
+                <div class="main_line main_title"></div>
+                <div class="main_title_2 main_title">
+                    지친일상을 벗어나서<br>
+                    자연에서 느낄수 있는 여유
+                </div>
+            </div>
+
+            <div id="main_pic3" class="main_pic">
+                <div class="main_title_1 main_title">
+                    도심속의 힐링
+                </div>
+                <div class="main_line main_title"></div>
+                <div class="main_title_2 main_title">
+                    글린공원은 365일 도심 속 <br>
+                    포근한 자연으로 제3의 공간, 꿈의 공간
+                </div>
+            </div>
+
+            <script>
+                var current = 1;
+                var next = current + 1;
+                var totalNum = 3;
+
+                for (i = 1; i <= totalNum; i++) {
+                    $("#main_pic" + i).css("opacity", "0");
+                }
+                //$("#main_pic1").css("opacity", "0");
+                //$("#main_pic2").css("opacity", "0");
+                //$("#main_pic3").css("opacity", "0");
+
+                $("#main_pic" + current).css("opacity", "1");
+
+
+                //$("#main_pic1").css("transition", "all 1s");
+                //$("#main_pic2").css("transition", "all 1s");
+                //$("#main_pic3").css("transition", "all 1s");
+
+
+                var transitionSet = setInterval(function () {
+
+                    for (i = 1; i <= totalNum; i++) {
+                        $("#main_pic" + i).css("transition", "all 1s");
+                    }
+                    clearInterval(transitionSet);
+                }, 2000);
+
+                setInterval(function () {
+
+                    $("#main_pic" + current).css("opacity", "0");
+                    $("#main_pic" + next).css("opacity", "1");
+                    if (current == 3) {
+                        current = 1;
+                    } else {
+                        current++;
+                    }
+                    if (next == 3) {
+                        next = 1;
+                    } else {
+                        next = current + 1;
+                    }
+                }, 2000);
+            </script>
+        </div>
+
+        <div id="main_txt">
+            <div id="main_text">카페로 피크닉 가봤니?</div>
+            <div id="main_banner"></div>
+        </div>
+
+    </header>
+
+    <section>
+
+        <div id="m_main_sec1" class="mobile">
+            <div id="m_sec1_text">
+                <div id="m_L_line"></div>
+                <div id="m_sec_text2">Nube Latte</div>
+                <div id="m_R_line"></div>
+            </div>
+            <div id="m_sec1_1" class="m_wrap">
+                <div id="m_sec1_2">
+                    <div id="m_sec1_text3"><span>BEST</span></div>
+                    <div id="m_sec1_pic"></div>
+
+                    <!-- <div id="m_sec1_text8">Signature</div> -->
+                    <div id="m_sec1_text4">누베라떼
+                        <span id="m_sec1_text5"> 초코</span>
+                        <span id="m_sec1_text6">/</span>
+                        <span id="m_sec1_text7">녹차</span>
+                    </div>
+
+                    <p id="m_sec_p"><span id="m_nube">누베란?</span> '구름'이란 뜻이며, <br>
+                        수제 휘핑크림이 얹혀진 라떼입니다.<br>
+                        달콤한 초코와 부드러운 녹차를 즐겨보세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="d_main_sec1" class="desktop">
+            <div id="sec1_text">
+                <div id="L_line"></div>
+                <div id="sec_text2">Nube Latte <span>&</span> Honey Series</div>
+                <div id="R_line"></div>
+            </div>
+            <div id="sec1_1" class="wrap">
+                <div id="sec1_2">
+                    <div id="sec1_text3">Signature</div>
+                    <div id="sec1_text4">누베라떼
+                        <span id="sec1_text5"> 녹차</span>
+                        <span id="sec1_text6">/</span>
+                        <span id="sec1_text7">초코</span>
+                    </div>
+                    <p id="sec_p"><span id="nube">누베란?</span> '구름'이란 뜻이며, 수제 휘핑크림이 얹혀진 라떼입니다.<br>
+                        부드러운 녹차와 달콤한 초코를 즐겨보세요.
+                    </p>
+                    <div id="sec1_pic"></div>
+                </div>
+
+                <div id="sec1_3">
+                    <a href="./responsive_sub2.html">
+                        <div id="honey_1" class="honey">
+                            <div class="box"></div>
+                            <div class="hon_text">허니워터(오리지널)</div>
+                            <div class="smallRec">+</div>
+                            <div class="hon_text_1"> 허브가 첨가된 <br>
+                                글린 허니워터! <br>
+                                감기, 피부노화, <br>
+                                만성피로에 좋아요!
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./responsive_sub2.html">
+                        <div id="honey_2" class="honey">
+                            <div class="box"></div>
+                            <div class="hon_text">허니워터(히비스커스)</div>
+                            <div class="smallRec">+</div>
+                            <div class="hon_text_1">
+                                새콤달콤하면서 <br>
+                                스트레스를 <br>
+                                진정시켜줘요!
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./responsive_sub2.html">
+                        <div id="honey_3" class="honey">
+                            <div class="box"></div>
+                            <div class="hon_text">미수라떼(오리지널)</div>
+                            <div class="smallRec">+</div>
+                            <div class="hon_text_2">직접 양봉한 숙성꿀과 <br>
+                                우유+선식의 조합으로 <br>
+                                고소하면서 달달해요!
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./responsive_sub2.html">
+                        <div id="honey_4" class="honey">
+                            <div class="box"></div>
+                            <div class="hon_text">미수라떼(블랙티)</div>
+                            <div class="smallRec">+</div>
+                            <div class="hon_text_2">밀크티를 좋아하시면 <br>
+                                강추합니다! <br>
+                                여성분들에게 <br>
+                                인기가 많아요
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="m_main_sec2" class="m_wrap mobile">
+            <h1 id="m_glen_map1">글린공원 오시는 길</h1>
+            <span class="m_flower"></span>
+
+            <div id="m_map_map">
+                <div id="m_main_map">
+                    <table cellpadding="0" cellspacing="0" width="302">
+                        <tr>
+                            <td style="border:1px solid #cecece;">
+                                <a href="https://map.naver.com/index.nhn?query=6rmA7Y%2BsIOq4gOumsOqzteybkA%3D%3D&searchCoord=&tab=1&lng=fbd15489cb1152fa927ebdcf229fd6d4&mapMode=0&mpx=dbc4413bca631cfaf149b766d91f2131e38496656850c7b4ca9c476f94a7ead8941fd47146c9a50329fd8033571fe1f0&lat=cab5925803919aa160003bbb5a0c9e55&dlevel=11&enc=b64&menu=location&__fromRestorer=true"
+                                    target="_blank"><img
+                                        src="http://prt.map.naver.com/mashupmap/print?key=p1548737585399_-442734153"
+                                        width="300" height="300" alt="지도 크게 보기" title="지도 크게 보기" border="0"
+                                        style="vertical-align:top;" />
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="tablet">
+                    <table cellpadding="0" cellspacing="0" width="462">
+                        <tr>
+                            <td style="border:1px solid #cecece;">
+                                <a href="https://map.naver.com/index.nhn?query=6rmA7Y%2BsIOq4gOumsOqzteybkA%3D%3D&searchCoord=&menu=location&tab=1&lng=fbd15489cb1152fa927ebdcf229fd6d4&__fromRestorer=true&mapMode=0&mpx=7f6dc4a507c6b01b0906dd150d146e90570aa5f7a4d0dc020c842afc24bafc91e478e616d9ec0958cee19af7e569cd85&lat=cab5925803919aa160003bbb5a0c9e55&dlevel=12&enc=b64"
+                                    target="_blank">
+                                    <img src="http://prt.map.naver.com/mashupmap/print?key=p1550470451352_878676781"
+                                        width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0"
+                                        style="vertical-align:top;" />
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="m_main_map_text">
+                    <div id="map_pic" class="tablet"><img src="./images/map_pic2.png"></div>
+                    <div id="m_main_address">
+
+                        <div id="map_logo">
+                            <img src="images/glen_logo.PNG" alt="글린공원 로고">
+                        </div>
+
+                        <div id="m_address1">
+                            <div id="m_address">
+                                <div id="m_address_icon"></div>
+                                <div id="m_address_2">경기 김포시 양촌읍 석모리 937</div>
+                            </div>
+
+                            <div id="m_call_call">
+                                <div id="m_icon_call" class="call"></div>
+                                <div id="m_tel_1" class="call">031 996 5177</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="d_main_sec2" class="wrap desktop">
+            <h1 id="glen_map1" class="sub_text_1">글린공원 <span>오시는 길</span></h1>
+            <span class="flower"></span>
+            <h4 id="map_text1" class="sub_text_2">햇살이 비치는 숲속으로 놀러오세요!</h4>
+
+            <div id="map_map">
+                <div id="main_map">
+                    <table cellpadding="0" cellspacing="0" width="532">
+                        <tr>
+                            <td style="border:1px solid #cecece;">
+                                <a href="https://map.naver.com/?searchCoord=bbfe3117ec9d4ffa63a2dd74f7188647cbff2cf4a03ba81758bae46b0f08faf8&query=6rmA7Y%2BsIOq4gOumsOqzteybkA%3D%3D&tab=1&lng=b964439c26c4eaa33925bf2b5b82868c&mapMode=0&mpx=9a05c28714a0012d69ab3f044ac43a1a764004bd324a7313bf881c4965ee8be675a826c0b389093a8c027a42c5ae01f2932976a42dd9d39cacbc955c488ca35d&lat=2b8f29b8d0767860be608cb796d2d0f5&dlevel=12&enc=b64&menu=location"
+                                    onclick="window.open(this.href, 'm', 'width=900, height=700'); return false;"
+                                    target="_blank">
+                                    <img src="http://prt.map.naver.com/mashupmap/print?key=p1547602077176_-2047271907"
+                                        width="530" height="400" alt="지도 크게 보기" title="지도 크게 보기" border="0"
+                                        style="vertical-align:top;" />
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="main_map_text">
+                    <div id="map_pic"><img src="./images/map_pic2.png"></div>
+                    <div id="main_address">
+
+                        <div id="address1">
+                            <div id="address_2">경기 김포시 <br>양촌읍 석모리 937</div>
+                            <div id="call_call">
+                                <div id="icon_call" class="call"></div>
+                                <div id="tel_1" class="call">031 996 5177</div>
+                            </div>
+                        </div>
+                        <div id="map_logo">
+                            <img src="images/glen_logo.PNG" alt="글린공원 로고">
+                            <span>
+                                <a href="./gleen_3.html">김포 1호점</a>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="bg_pattern"></div>
+
+    <section>
+        <div id="m_main_sec3" class="m_wrap mobile">
+            <div id="m_main_sec_1">
+                <h1 id="m_honey_park_text1">#글린양봉 #글린농장</h1>
+                <span class="m_flower"></span>
+
+                <div id="m_honey_park">
+                    <div id="m_active_1">
+                        <a href="#" class="m_a_honey m_farm">
+                            <div id="m_honey_pic1" class="m_honeyPic">
+                                <img src="./images/honey_pic_2.jpg">
+                            </div>
+                        </a>
+                        <div id="m_honey_text" class="m_farm">
+                            <div class="m_farm_text">글린 꿀</div>
+                            <p>
+                                건강한 단 맛,<br>
+                                궁금하지 않으세요?<br>
+                                지금 놀러오세요.
+                            </p>
+                            <span class="m_pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                        </div>
+                    </div>
+
+                    <div id="m_active_2">
+                        <a href="#" class="m_a_honey m_farm">
+                            <div id="m_park_pic1" class="m_honeyPic">
+                                <img src="./images/park_pic_1.jpg">
+                            </div>
+                        </a>
+                        <div id="m_park_text" class="m_farm">
+                            <div class="m_farm_text">글린농장</div>
+                            <p>
+                                이렇게 싱싱하고<br>
+                                푸릇푸릇한 채소들과<br>
+                                예쁜 메밀꽃이 무럭무럭<br>
+                                자라나고 있답니다.
+                            </p>
+                            <span class="m_pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main_sec3" class="desktop">
+            <div class="wrap">
+                <h1 id="honey_park_text1">#글린양봉 #글린농장</h1>
+                <span class="flower"></span>
+                <h4 id="honey_park_text2">글린공원만의 건강한 활동</h4>
+
+                <div id="honey_park">
+                    <a href="#" class="a_honey farm">
+                        <div id="honey_pic1" class="honeyPic">
+                            <img src="./images/honey_pic_1.PNG">
+                        </div>
+                    </a>
+                    <div id="honey_text" class="farm">
+                        <div class="farm_text">글린양봉</div>
+                        <p>
+                            숙성꿀만의 건강한 맛!<br>
+                            진정한 꿀맛!<br>
+                            다양한 음료로 찾아뵐게요! <br>
+                            Comming Soon
+                        </p>
+                        <span class="pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                    </div>
+                    <a href="#" class="a_honey farm">
+                        <div id="park_pic1" class="honeyPic">
+                            <img src="./images/park_pic_1.jpg">
+                        </div>
+                    </a>
+                    <div id="park_text" class="farm">
+                        <div class="farm_text">글린농장</div>
+                        <p>
+                            이렇게 싱싱하고<br>
+                            푸릇푸릇한 채소들과<br>
+                            예쁜 메밀꽃이 무럭무럭<br>
+                            자라나고 있답니다.
+                        </p>
+                        <span class="pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                    </div>
+                </div>
+
+                <div id="honey_park2">
+                    <div id="honey_text2" class="farm2">
+                        <div class="farm_text2">글린꿀</div>
+                        <p>
+                            건강한 단 맛,<br>
+                            궁금하지 않으세요?<br>
+                            지금 놀러오세요.
+                        </p>
+                        <span class="pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                    </div>
+                    <a href="#" class="a_honey farm">
+                        <div id="honey_pic2" class="farm2 honeyPic">
+                            <img src="./images/honey_pic_2.jpg">
+                        </div>
+                    </a>
+
+
+                    <div id="park_text2" class="farm2">
+                        <div class="farm_text2">글린벌판</div>
+                        <p>
+                            죽은 땅 살리기 프로젝트<br>
+                            대성공!<br>
+                            허허벌판에서 글린농장으로<br>
+
+                        </p>
+                        <span class="pp"><a href="./gleen_sub1.html"> +자세히보기</a></span>
+                    </div>
+                    <a href="#" class="a_honey farm">
+                        <div id="park_pic2" class="farm2 honeyPic">
+                            <img src="./images/park_pic_2.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="m_main_sec4" class="m_wrap mobile">
+            <div id="m_insta_1">
+                <a href="https://www.instagram.com/gleenpark_cafe/" id="m_insta_main" target="_blank">
+                </a>
+                <div id="m_insta_right">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" target="_blank">
+                        <div id="m_insta_logo"><img src="images/insta_logo.png"></div>
+                    </a>
+                    <div id="m_insta_text">
+                        <h5 id="m_insta_pro">gleenpark_cafe</h5>
+                        글린공원(Gleen Park) by ZoolungZoolung<br>
+                        카페로 피크닉 가봤니?
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab_insta">
+
+                <div id="m_ins1" class="m_ins">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="m_insta" target="_blank">
+                        <div id="m_insta_square1" class="m_insta"><img src="images/insta_pic_1.PNG"></div>
+                    </a>
+                    <div class="m_ins">#블렌딩 데이</div>
+                    <p>
+                        gleenpark_cafe
+                        #글린공원 <br>
+                        #블랜딩 #원두 #선착순모집<br>
+                        글린공원에서 1월28일 <br>
+                        블랜딩데이를 엽니다~☕
+                    </p>
+                </div>
+
+                <div id="m_ins2" class="m_ins">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="m_insta" target="_blank">
+                        <div id="m_insta_square2" class="m_insta"><img src="images/insta_pic_2.PNG"></div>
+                    </a>
+                    <div class="m_ins">#1월 정기휴장일</div>
+                    <p>gleenpark_cafe
+                        #글린공원 1월 <br>
+                        #정기휴장일 을 확인해주세요✔<br>
+                        1월은 두번째,네번째 <br>
+                        월요일 정기휴장일입니다.
+                    </p>
+                </div>
+
+                <div id="m_ins3" class="tablet">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="m_insta" target="_blank">
+                        <div id="insta_square3" class="m_insta"><img src="images/insta_pic_3.PNG"></div>
+                    </a>
+                    <div class="m_ins">#슈게트</div>
+                    <p>gleenpark_cafe
+                        #글린공원 #신메뉴출시 <br>
+                        슈게트 인기 예상적중 <br>
+                        오늘 출시한 따끈따끈한 디저트에요:)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="d_main_sec4" class="desktop wrap">
+            <div id="insta_1" class="color">
+                <a href="https://www.instagram.com/gleenpark_cafe/" id="insta_main" target="_blank">
+                </a>
+                <div id="insta_right">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" target="_blank">
+                        <div id="insta_logo"><img src="images/insta_logo.png"></div>
+                    </a>
+                    <h5 id="insta_pro">gleenpark_cafe</h5>
+                    <br>
+                    글린공원(Gleen Park) by ZoolungZoolung<br>
+                    카페로 피크닉 가봤니?
+                </div>
+            </div>
+
+            <div id="insta_set">
+                <div id="insta_2" class="insta_set_flex">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="insta" target="_blank">
+                        <div id="insta_square1" class="insta"><img src="images/insta_pic_1.PNG"></div>
+                    </a>
+                    <div>#블렌딩 데이</div>
+                    <p class="insta_set_p">
+                        gleenpark_cafe
+                        #글린공원 #블랜딩 #원두 #선착순모집
+                        글린~
+                        글린공원에서 1월28일 블랜딩데이를 엽니다~☕
+                    </p>
+                </div>
+
+                <div id="insta_3" class="insta_set_flex">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="insta" target="_blank">
+                        <div id="insta_square2" class="insta"><img src="images/insta_pic_2.PNG"></div>
+                    </a>
+                    <div>#1월 정기휴장일</div>
+                    <p class="insta_set_p">
+                        gleenpark_cafe
+                        #글린공원 1월 #정기휴장일 을 확인해주세요✔<br>
+                        1월은 두번째,네번째 월요일 정기휴장일입니다.
+                    </p>
+                </div>
+
+                <div id="insta_4" class="insta_set_flex">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="insta" target="_blank">
+                        <div id="insta_square3" class="insta"><img src="images/insta_pic_3.PNG"></div>
+                    </a>
+                    <div>#슈게트</div>
+                    <p class="insta_set_p">
+                        gleenpark_cafe
+                        #글린공원 #신메뉴출시
+                        슈게트 인기 예상적중
+                        오늘 출시한 따끈따끈한 디저트에요:)
+                    </p>
+                </div>
+
+                <div id="insta_5" class="insta_set_flex">
+                    <a href="https://www.instagram.com/gleenpark_cafe/" class="insta" target="_blank">
+                        <div id="insta_square4" class="insta"><img src="images/insta_pic_4.PNG"></div>
+                    </a>
+                    <div>#글린델라</div>
+                    <p class="insta_set_p">
+                        gleenpark_cafe
+                        글린공원 #글린렐라를 찾습니다!*´θ｀ノ
+                        글리너의 마음을 훔쳐간 미키크록스 신발의 주인인 #글린렐라 를 찾습니다~
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="m_footer" class="mobile">
+            <div id="m_footer_logo"><img src="./images/glen_logo_3.PNG"></div>
+            <div id="m_footer_text">
+                <div class="m_footer_1">대표전화 1644-2153</div>
+                <a href="./responsive_sub5.html">
+                    <div class="m_footer_1">FAQ</div>
+                </a>
+                <a href="#">
+                    <div class="m_footer_1">문의하기</div>
+                </a>
+                <a href="#">
+                    <div class="m_footer_1">제휴문의</div>
+                </a>
+                <address>주렁주렁 서울시 마포구 성암로 189 중소기업 DMC타워 17F</address>
+            </div>
+            <div id="m_copy">Copyright © 글린공원 공식 홈페이지</div>
+        </div>
+
+        <div id="d_footer" class="desktop">
+            <div id="footer_flex">
+                <div id="footer_logo"><img src="./images/glen_logo_3.PNG"></div>
+                <div id="footer_text">
+                    <div class="footer_1">대표전화 1644-2153</div>
+                    <a href="./gleen_sub5.html">
+                        <div class="footer_1">FAQ</div>
+                    </a>
+                    <a href="#">
+                        <div class="footer_1">문의하기</div>
+                    </a>
+                    <a href="#">
+                        <div class="footer_1">제휴문의</div>
+                    </a>
+
+                    <address>주렁주렁 서울시 마포구 성암로 189 중소기업 DMC타워 17F</address>
+                </div>
+            </div>
+            <div id="copy">Copyright © 글린공원 공식 홈페이지</div>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
