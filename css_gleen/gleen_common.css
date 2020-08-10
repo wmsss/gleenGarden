@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 3px solid black; */
+    margin: 0 auto;
+    /* font-family: "Noto Sans"; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.desktop {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+#in {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+
+/* #m_nav{
+    width: 100%;
+    position: fixed;
+    background: white;
+    border-bottom: 1px solid #aaa;
+    z-index: 10;
+    top: 0;
+} */
+
+/* top start -------------------------------------------*/
+#top{
+    /* border: 3px solid red; */
+    position: fixed;
+    right: 20px;
+    bottom: 55px; /*150px;*/
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 38px;
+    transition: all .5s;
+}
+#top_top{
+    /* border: 3px solid blue; */
+    width: 50px;
+    height: 50px;
+}
+
+#m_top{
+    /* border: 3px solid red; */
+    position: fixed;
+    right: 20px;
+    bottom: 55px; /*150px;*/
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 38px;
+    transition: all .5s;
+}
+#m_top_top{
+    /* border: 3px solid blue; */
+    width: 50px;
+    height: 50px;
+}
+
+/* top end ---------------------------------------------*/
+
+.m_wrap{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.m_sub_text_1{
+    /* border: 1px solid black; */
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.m_flower{
+    /* border: 1px solid red; */
+    background-image: url("../images/flower.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 20px;
+    display: inline-block;
+}
+
+.sub_text_1{
+    /* border: 1px solid black; */
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.sub_text_2{
+    display: inline-block;
+    font-weight: 400;
+    color: #555;
+}
+
+.flower{
+    background-image: url("../images/flower.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 20px;
+    display: inline-block;
+}
+
+.sub_sec_line{
+    width: 100%;
+    border: 1px solid #71a141;
+    /* margin-top: -25px; */
+}
+
+/* drag start ---------------------------------------------*/
+::-moz-selection {
+    color: #fcd173;
+}
+
+::selection {
+    background: #fcd173;
+}
+/* drag end ---------------------------------------------*/
+
+@media screen and (min-width: 768px ){
+    .tablet {
+        display: block;
+    }
+
+    .wrap{
+        /* border: 3px solid red; */
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .flower{
+        background-image: url("../images/flower.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 20px;
+        width: 25px;
+        display: inline-block;
+    }
+
+    .sub_text_1{
+        /* border: 1px solid black; */
+        display: inline-block;
+        font-size: 2em;
+    }
+
+    .sub_text_2{
+        display: inline-block;
+        font-weight: 400;
+        color: #555;
+    }
+
+    .sub_sec_line{
+        width: 100%;
+        border: 1px solid #71a141;
+        /* margin-top: -25px; */
+    }
+}
+
+@media screen and (min-width: 1024px ){
+    .desktop {
+        display: block !important;
+    }
+
+    .tablet {
+        display: none !important;
+    }
+    
+    .mobile {
+        display: none !important;
+    }
+    
+    .wrap{
+        /* border: 3px solid red; */
+        width: 1000px;
+        margin: 0 auto;
+        /* height: 300px; */
+    }
+
+    .desk_nav {
+        width: 1000px !important;
+        margin: 0 auto !important;
+    }
+
+    .flower{
+        background-image: url("../images/flower.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 20px;
+        width: 25px;
+        display: inline-block;
+    }
+
+    .sub_text_1{
+        /* border: 1px solid black; */
+        display: inline-block;
+        font-size: 2em;
+    }
+
+    .sub_text_2{
+        /* border: 3px solid red; */
+        display: inline-block;
+        font-weight: 400;
+        color: #555;
+    }
+    
+    .sub_sec_line{
+        width: 100%;
+        border: 1px solid #71a141;
+        /* margin-top: -25px; */
+    }
+}

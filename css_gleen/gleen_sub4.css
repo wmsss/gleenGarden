@@ -1,0 +1,115 @@
+
+#main_pic_4 {
+    background-image: url("../images/pic_sub4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+#glen_map1{
+    display: inline-block;
+}
+
+section{
+    width: 92%;
+    margin: 30px auto;
+}
+
+#challenge{
+    /* border: 3px solid red; */
+    margin-top: -30px;
+}
+
+.challengeBtn{
+    cursor: pointer;
+}
+
+.challengeBtn:hover{
+    color: rgb(51, 134, 51);
+}
+
+.sub_text_2{
+    display: none;
+}
+
+@media screen and (min-width: 768px ){
+
+    #main_pic_4 {
+        background-image: url("../images/pic_sub4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    #sub4_sec2{
+        width: 92%;
+        margin: 50px auto 0 auto;
+        /* border: 3px solid red; */
+    }
+
+    #challenge{
+        /* border: 3px solid red; */
+        width: 92%;
+        margin: 0 auto 30px auto;
+    }
+
+    .sub_text_2{
+        display: inline-block;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1024px ){
+
+    #main_pic_4{
+        background-image: url("../images/pic_sub4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1000px;
+        height: 300px;
+        margin-top: -70px;
+        /* border: 3px solid red; */
+    }
+
+    #sub4_sec2{
+        margin-top: 30px;
+    }
+
+    #sub4_sec2, #challenge{
+        width: 1000px;
+    }
+
+    #challenge{
+        margin: 0 auto; 
+        margin-bottom: 100px;
+    }
+
+    .challengeBtn{
+        cursor: pointer;
+    }
+
+    .challengeBtn div{
+        padding: 10px 30px;
+        font-size: 1em;
+    }
+
+    .challengeText{
+        padding-left: 50px;
+    }
+
+    .sub_text_2{
+        display: inline-block;
+    }
+ 
+
+    
+}

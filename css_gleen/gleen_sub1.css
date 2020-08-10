@@ -1,0 +1,721 @@
+
+#main_pic_1{
+    background-image: url("../images/submain_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+#m_section1{
+    margin-top: 20px;
+}
+
+#notice_back{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/BG1.jpg"), url("../images/BG2.jpg");
+    background-position: left, right;
+    height: 355px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(201, 201, 201);
+}
+
+#m_section2{
+    margin-top: 20px;
+}
+
+#notice_text_1{
+    font-size: .8em;
+    padding-top: 30px;
+}
+
+.gleen_honey_set{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.m_sub1_pic{
+    /* border: 3px solid red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 180px;
+    flex: 1;
+}
+
+.sub1_text{
+    flex: 1;
+}
+
+.sub1_text div{
+    font-size: .9em;
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.sub1_text>p{
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+#gleen_active{
+    margin-top: 30px;
+}
+
+#m_gleenhoney_pic1{
+    background-image: url("../images/gleenhoney_pic1.jpg");
+    /* border: 3px solid red; */
+}
+
+#m_gleenhoney_pic2{
+    background-image: url("../images/gleenhoney_pic2.png");
+}
+
+#m_gleenhoney_pic3{
+    background-image: url("../images/gleenhoney_pic3.jpg");
+}
+
+#m_section3{
+    margin-top: 20px;
+}
+#gleen_bee{
+    margin-top: 30px;
+    /* margin-bottom: 150px; */
+}
+#gleen_bee_photo{
+}
+#gleen_bee_text{
+    /* flex:1; */
+    /* margin-right: 20px; */
+    /* border: 3px solid yellow; */
+    margin: 0 auto;
+    width: 350px;
+}
+.m_honey_active{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#gleen_bee_photo_in{
+    
+}
+#m_honey_active1{
+    /* border: 1px solid red; */
+    background-image: url("../images/honey_active1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+    width: 100%;
+}
+
+#honey_pictext{
+    margin-top: 10px;
+}
+
+#m_honey_active2{
+     /* border: 1px solid red; */
+    background-image: url("../images/honey_active2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    width: 35%;
+    /* margin-top: -60px; */
+    display: inline-block;
+}
+
+#bee_p2{
+    /* border: 1px solid red; */
+    color: #555;
+    font-size: .9em;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#gleen_bee_text{
+    margin-top: 20px;
+}
+
+#bee_text1{
+    color: #555;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+#bee_text2{
+    font-size: 1.1em;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#honey_line{
+    border: 1px solid #888;
+    width: 78%;
+}
+#bee_p1{
+    /* font-weight: 600; */
+    font-size: .9em;
+    padding-left: 20px;
+}
+
+#bee_event{
+    position: relative;
+}
+#bee_event1{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    left: 15px;
+    top: 30px;
+    padding-top: 8px;    
+    margin-left: 5px;
+    font-size: .9em;
+    /* font-weight: bold; */
+}
+#bee_event2{
+    background-color: #222;
+    padding: 20px 30px 20px 110px;
+    position: absolute;
+    color: white;
+    font-size: .9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#m_section4{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+#gleen_farm{
+    margin-top: 30px;
+}
+.gleen_farm_sec{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.gleen_farm_pic{
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+.gleen_farm_set{
+    /* border: 1px solid red; */
+    flex: 1;
+}
+#gleen_farm_pic1{
+    background-image: url("../images/farm_pic1.jpg");
+}
+#gleen_farm_pic2{
+    background-image: url("../images/farm_pic2.PNG");
+}
+#gleen_farm_pic3{
+    background-image: url("../images/farm_pic3.jpg");
+}
+.gleen_farm_title{
+    font-size: .9em;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.gleen_farm_text{
+    margin-left: 15px;
+    /* margin-top: 15px; */
+    font-size: .8em;
+}
+
+@media screen and (min-width: 768px ){
+
+    #main_pic_1{
+        background-image: url("../images/submain_1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    .sub1_pic{
+        height: 250px;
+    }
+
+    #notice_back{
+        height: 400px;
+        font-size: 1.1em;
+    }
+
+    .m_sub1_pic{
+        /* border: 1px solid red; */
+        height: 280px;
+    }
+    
+    .sub1_text{
+        font-size: 1.2em;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    #gleen_bee{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 150px;
+        /* padding-left: 20px; */
+    }
+
+    #gleen_bee_photo{
+        flex: 2;
+    }
+
+    #gleen_bee_text{
+        /* border: 3px solid red; */
+        flex: 1.2;
+        margin-top: 50px;
+    }
+
+    .m_honey_active{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #gleen_bee_photo_in{
+        position: relative;
+        /* left: 30px; */
+    }
+    
+    #m_honey_active1{
+        /* border: 3px solid violet; */
+        background-image: url("../images/honey_active1.jpg");
+        height: 400px;
+        width: 95%;
+        position: absolute;
+        /* opacity: 0; */
+        /* margin-left: -50px; 
+        animation-name: ani2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards; */
+    }    
+    
+    #m_honey_active2{
+        /* background-image: url("../images/honey_active2.jpg");
+        height: 230px;
+        width: 230px;
+        position: absolute;
+        top: 250px;
+        left: 370px; */
+        /* opacity: 0; */
+        /* margin-bottom: -50px; 
+        animation-name: ani3;
+        animation-duration: 1s;
+        animation-fill-mode: forwards; */
+    }
+    
+    #bee_text1{
+        color: #555;
+    }
+    #bee_text2{
+        font-size: 2em;
+        padding-top: 15px;
+    }
+    #honey_line{
+        border: 1px solid #888;
+        width: 78%;
+    }
+    #bee_p1{
+        font-weight: 600;
+    }
+    #bee_p2{
+        margin-top: 30px;
+        color: #555;
+        font-size: .9em;
+    }
+    #bee_event{
+        position: relative;
+        margin-top: 30px;
+    }
+    #bee_event1{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        position: absolute;
+        z-index: 10;
+        left: 10px;
+        top: 20px;
+        padding-top: 8px;    
+        margin-left: 5px;
+        font-size: .9em;
+        /* font-weight: bold; */
+    }
+    #bee_event2{
+        background-color: #222;
+        padding: 20px 30px 20px 90px;
+        position: absolute;
+        color: white;
+        font-size: .9em;
+    }
+    
+    .gleen_farm_pic{
+        /* border: 3px solid red; */
+        height: 300px;
+    }
+
+    .gleen_farm_title{
+        font-size: 1.1em;
+        margin-top: 80px;
+        margin-left: 25px;
+    }
+
+    .gleen_farm_text{
+        font-size: 1em;
+        margin-left: 30px;
+    }
+
+    #m_section1, #m_section2, #m_section3{
+        margin-top: 50px;
+    }
+
+    #m_section4{
+        margin-top: 250px;
+        margin-bottom: 70px;
+    }
+
+}
+
+@media screen and (min-width: 1024px ){
+
+    #main_pic_1{
+        background-image: url("../images/submain_1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1000px;
+        height: 300px;
+        margin-top: -70px;
+        /* border: 3px solid red; */
+    }
+    
+    #sub1_sec1{
+        position: relative;
+        height: 650px;
+        margin: 40px auto 0 auto;
+        
+    }
+    #notice_back{
+        /* border: 0.5px solid gray; */
+        background-image: url("../images/sub1_notice_2.png");
+        box-shadow:  1px 1px 1px 1px rgb(201, 201, 201);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        background-position-x: center;
+        margin-top: 20px;
+    }
+    #notice_text_1{
+        padding-top: 100px;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    
+    
+    /*---------------------------------------------------------------*/
+    #sub1_sec2{
+        margin-bottom: 100px;
+    }
+
+    #sub1_title3{
+        /* display: inline-block; */
+        /* border: 1px solid black; */
+        font-size: 2em;
+        /* margin-top: 50px; */
+    }
+
+    #sub1_title4{
+        display: inline-block;    
+    }
+
+    #gleen_active{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .sub1_pic{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 310px;
+        width: 95%;
+    }
+
+    .sub1_text h5{
+        /* border: 3px solid red; */
+        font-size: 1em;
+        margin: 0;
+        margin-top: -50px;
+        font-weight: 500;
+    }
+    .sub1_text>p{
+        padding-left: 10px;
+        font-size: .8em;
+    }
+
+    #gleen_honey_part1{
+        flex: 1;
+        /* margin-left: 30px; */
+    }
+
+    #gleenhoney_pic1{
+        background-image: url("../images/gleenhoney_pic1.jpg");
+        /* opacity: 0; */
+        /* margin-left: -50px; */
+        /* animation-name: ani1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards; */
+        
+    }
+
+    @keyframes ani1{
+        from{
+            margin-left: -50px;
+            opacity: 0;
+        }
+        to{
+            margin-left: 0;
+            opacity: 1;
+        }
+    }
+
+    #gleen_honey_part2{
+        flex: 1;
+    }
+
+    #gleenhoney_pic2{
+        background-image: url("../images/gleenhoney_pic2.png");
+        /* opacity: 0; */
+    }
+
+    #gleen_honey_part3{
+        flex: 1;
+    }
+
+    #gleenhoney_pic3{
+        background-image: url("../images/gleenhoney_pic3.jpg");
+        /* opacity: 0; */
+    }
+
+    /*------------------------------------------------------------------*/
+    #sub1_sec3{
+        height: 600px;
+        margin-bottom: 50px;
+    }
+
+    #gleen_bee{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+
+    #gleen_bee_photo{
+        flex: 2;
+    }
+
+    #gleen_bee_text{
+        flex:1.2;
+        /* margin-right: 20px; */
+    }
+
+    .honey_active{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #gleen_bee_photo_in{
+        position: relative;
+        /* left: 30px; */
+    }
+
+    #honey_active1{
+        /* border: 3px solid violet; */
+        background-image: url("../images/honey_active1.jpg");
+        height: 350px;
+        width: 501px;
+        position: absolute;
+        opacity: 0;
+        /* margin-left: -50px; 
+        animation-name: ani2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards; */
+    }
+    
+    @keyframes ani2{
+        from{
+            margin-left: -50px;
+            opacity: 0;
+        }
+        to{
+            margin-left: 0;
+            opacity: 1;
+        }
+    }
+    
+    
+    #honey_active2{
+        background-image: url("../images/honey_active2.jpg");
+        height: 230px;
+        width: 230px;
+        position: absolute;
+        top: 250px;
+        left: 370px;
+        opacity: 0;
+        /* margin-bottom: -50px; 
+        animation-name: ani3;
+        animation-duration: 1s;
+        animation-fill-mode: forwards; */
+    }
+    
+    @keyframes ani3{
+        from{
+            top: 300px;
+            opacity: 0;
+        }
+        to{
+            top: 250px;
+            opacity: 1;
+        }
+    }
+    
+    #bee_text1{
+        color: #555;
+    }
+    #bee_text2{
+        font-size: 2em;
+        padding-top: 15px;
+    }
+    #honey_line{
+        border: 1px solid #888;
+        width: 78%;
+    }
+    #bee_p1{
+        font-weight: 600;
+    }
+    #bee_p2{
+        margin-top: 30px;
+        color: #555;
+        font-size: .9em;
+    }
+    #bee_event{
+        position: relative;
+    }
+    #bee_event1{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        position: absolute;
+        z-index: 10;
+        left: 10px;
+        top: 20px;
+        padding-top: 8px;    
+        margin-left: 5px;
+        font-size: .9em;
+        /* font-weight: bold; */
+    }
+    #bee_event2{
+        background-color: #222;
+        padding: 20px 30px 20px 90px;
+        position: absolute;
+        color: white;
+        font-size: .9em;
+    }
+    
+    /*------------------------------------------------------------------*/
+    #d_sub1_sec4{
+        margin-bottom: 50px;
+    }
+
+    #gleen_farm{
+        /* border: 3px solid red; */
+        display: flex;
+        /* justify-content: space-between; */
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .gleen_farm_sec{
+        flex: 1;
+
+        /* width: 300px; */
+        /* border: 3px solid red; */
+    }
+
+    #gleen_farm_sec2{
+        margin: 0 15px;
+    }
+
+
+    .gleen_farm_pic{
+        /* width: 80% !important; */
+        height: 310px;
+        /* border: 3px solid green; */
+    }
+
+    #d_gleen_farm_pic1{
+        background-image: url("../images/farm_pic1.jpg");
+        /* border: 3px solid yellow; */
+        /* width: 90%; */ 
+
+    }
+
+    #d_gleen_farm_pic2{
+        background-image: url("../images/farm_pic2.PNG");
+    }
+
+    #d_gleen_farm_pic3{
+        background-image: url("../images/farm_pic3.jpg");
+    }
+
+    .gleen_farm_text h5{
+        font-size: 1.2em;
+        margin: 0;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .gleen_farm_text{
+        /* border: 3px solid yellow; */
+        height: 150px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 320px;
+        /* font-size: 1em; */
+    }
+
+    .gleen_farm_text p{
+        font-size: .9em;
+        margin-left: 10px;
+    }
+
+    /* #gleen_farm_pic1,  #gleen_farm_pic2{
+        margin-right: 30px;
+    } */
+    
+    
+    
+    /*-------------------------------------*/
+    
+}

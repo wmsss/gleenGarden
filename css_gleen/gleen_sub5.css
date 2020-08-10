@@ -1,0 +1,127 @@
+
+#main_pic_5 {
+    background-image: url("../images/pic_sub5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+#glen_map1{
+    display: inline-block;
+}
+
+section{
+    width: 92%;
+    margin: 30px auto;
+}
+
+.challengeBtn{
+    cursor: pointer;
+}
+
+.challengeBtn:hover{
+    color: rgb(51, 134, 51);
+}
+
+#challenge{
+    /* border: 3px solid red; */
+    margin-top: -30px;
+}
+
+.sub_text_2{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px ){
+
+    #main_pic_5 {
+        background-image: url("../images/pic_sub5.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    .challengeBtn{
+        cursor: pointer;
+    }
+
+    #sub5_sec2{
+        margin-top: 20px;
+        width: 92%;
+    }
+
+    #challenge{
+        /* border: 3px solid red; */
+        width: 92%;
+        margin: 0 auto 50px auto;
+        
+    }
+
+    .sub_text_2{
+        display: inline-block;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1024px ){
+
+    #main_pic_5{
+        background-image: url("../images/pic_sub5.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1000px;
+        height: 300px;
+        margin-top: -70px;
+        /* border: 3px solid red; */
+    }
+
+    #sub5_sec2{
+        margin-top: 30px;
+        width: 1000px;
+    }
+
+    #challenge{
+        margin-bottom: 100px;
+        width: 1000px;
+    }
+
+   
+    .challengeBtn{
+        cursor: pointer;
+    }
+
+    .challengeBtn div{
+        padding: 10px 30px;
+        font-size: 1em;
+    }
+
+    .challengeText{
+        /* border: 1px solid blue; */
+        padding-left: 50px;
+        margin-left: 50px;
+        padding: 40px;
+    }
+
+    b{
+        font-size: 1.1em;
+    }
+
+    .challengeText span{
+        margin-left: 20px;
+    }
+
+    .sub_text_2{
+        display: inline-block;
+    }
+
+}

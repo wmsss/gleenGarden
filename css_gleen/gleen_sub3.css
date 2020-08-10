@@ -1,0 +1,590 @@
+#main_pic_3 {
+    background-image: url("../images/pic_sub3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+section{
+    width: 92%;
+    margin: 0 auto;
+}
+
+#sub4_sec1{
+    margin-top: 30px;
+}
+
+#sub4_map_text{
+    /* margin */
+}
+
+#come_gleen_name{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#come_gleen{
+    /* background-color: rgb(230, 229, 229); */
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    padding: 10px 0 20px 0;
+}
+#sub4_adderss div{
+    margin-bottom: 10px;
+}
+.addr{
+    color: #492e1f;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#close{
+    margin-left: 80px;
+}
+
+    /* -----------------------------------------service */
+    #service_name{
+        padding: 10px;
+        margin-top: -20px;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    #service{
+        padding: 20px 0 20px 50px;
+        width: 100%;
+    }
+    .balloon_box>img{
+        width: 40px;
+    }
+    .balloon_box{
+        display: inline-block;
+        margin-right: 20px;
+        width: 70px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #balloonBox {
+        display: inline-flex;
+        /* width: 600px; */
+        /* border: 1px solid red; */
+    }
+     /* .balloon_box {
+        border: 1px solid black;
+        width: 70px;
+        text-align: center;
+        cursor: pointer;
+    }  */
+    .balloon_text {
+        /* border: 3px solid green; */
+        position: absolute;
+        top: 450px;
+        left: 595px;
+        /* display: none; */
+        opacity: 0;
+        transition: all .5s;
+        font-weight: bold;
+        color: #492e1f;
+    }
+    #balloon {
+        width: 370px;
+        height: 50px;
+        background: #fcd173;
+        border-radius: 10px;
+        position: relative;
+        top: 15px;
+        left:0;
+    }
+    #triangle {
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-bottom: 20px solid #fcd173;
+        /* border-top: 20px solid red; */
+        position: absolute;
+        top:-25px;
+        left: 35px;
+        margin-left: -10px;
+        transition: all .7s;
+    }
+    
+    /* -----------------------------------------service */
+
+
+    #sub4_sec2{
+        margin-top: 50px;
+    }
+    
+    #sub4_map_text{
+        margin: 0 auto;
+        /* border: 3px solid red; */
+        width: 340px;
+    }
+
+    #gleen_map1{
+        display: inline-block;
+    }
+
+    #map_text1{
+        display: none;
+    }
+
+     /* -----------------------------------------gleener */
+
+    #sub4_sec3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        /* border: 3px solid red; */
+        /* margin: 50px auto 0 auto; */
+    }
+
+    #gleener{
+        position: relative;
+        margin: 0 auto;
+        /* border: 3px solid black; */
+        height: 900px;
+        width: 400px
+    }
+
+    .gleener{
+        /* border: 3px solid black; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+    }
+
+    #gleener1{
+        background-image: url("../images/gleener_1.jpg");
+        width: 200px;
+        margin-top: 20px;
+    }
+      
+    #gleener2_text{
+        /* border: 1px solid red; */
+        top: 30px;
+        left: 200px;
+        /* text-align: right; */
+        margin-left: 10px;
+        /* padding-right: 10px; */
+        margin-top: 20px;
+    }
+
+    #gleener2{
+        background-image: url("../images/gleener_2.jpg");
+        left: 0;
+        top: 240px;
+        width: 200px;
+    }    
+
+    #gleener1_text{
+        /* border: 3px solid blue; */
+        top: 240px;
+        left: 210px;
+    }
+    
+    #gleener3{
+        background-image: url("../images/gleener_3.jpg");
+        top: 460px;
+        width: 200px;
+    }
+
+    #gleener4_text{
+        top: 460px;
+        left: 210px;
+    }
+
+    #gleener4{
+        background-image: url("../images/gleener_4.jpg");
+        top: 680px;
+        left: 0;
+        width: 200px;
+    }
+
+    #gleener3_text{
+        /* border: 1px solid red; */
+        top: 700px;
+        left: 210px;
+    }
+
+
+    .gleener_text{
+        font-size: .8em;
+        position: absolute;
+    }
+
+
+
+@media screen and (min-width: 768px ){
+
+    #main_pic_3 {
+        background-image: url("../images/pic_sub3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    #sub4_sec1, #sub4_sec2, #sub4_sec3{
+        width: 92%;
+        margin: 50px auto;
+        /* border: 3px solid red; */
+
+    }
+
+    #gleen_map1{
+        font-size: 1.5em;
+    }
+
+    #map_text1{
+        display: inline-block;
+    }
+
+    #map_map{
+        display: flex;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+
+    #main_map{
+        flex: 1;
+    }
+
+    #sub4_map_text{
+        flex: 1;
+        /* border: 3px solid blue; */
+        padding-left: 15px;
+    }
+
+    #address_1{
+        margin-top: 40px;
+    }
+
+    #gleen_map1{
+        display: inline-block;
+    }
+
+    #sub4_sec3{
+        /* border: 3px solid violet; */
+    }
+
+    #gleener1{
+        /* background-image: url("../images/gleener_1.jpg"); */
+        width: 300px;
+        /* background-position-x: right; */
+        background-size: cover;
+        left: -60px;
+        /* border: 3px solid black; */
+    }
+
+    #gleener2_text{
+        /* border: 1px solid red; */
+        width: 200px;
+        top: 30px;
+        left: 250px;
+        /* text-align: right; */
+        margin-left: 10px;
+        /* padding-right: 10px; */
+        margin-top: 20px;
+    }
+
+    #gleener2{
+        /* background-image: url("../images/gleener_2.jpg"); */
+        width: 300px;
+        left: -60px;
+        background-size: cover;
+        /* border: 3px solid black; */
+    }
+
+    #gleener1_text{
+        /* border: 3px solid blue; */
+        width: 200px;
+        top: 250px;
+        left: 260px;
+    }
+
+    #gleener3{
+        /* background-image: url("../images/gleener_3.jpg"); */
+        width: 300px;
+        left: -60px;
+        background-size: cover;
+        /* border: 3px solid black; */
+    }
+
+    #gleener4_text{
+        top: 460px;
+        left: 260px;
+        width: 200px;
+    }
+
+    #gleener4{
+        /* background-image: url("../images/gleener_4.jpg"); */
+        width: 300px;
+        background-position-x: right;
+        background-size: cover;
+        left: -60px;
+        /* border: 3px solid black; */
+    }
+    
+    #gleener3_text{
+        /* border: 1px solid red; */
+        width: 200px;
+        top: 700px;
+        left: 260px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px ){
+
+    section{
+        /* border: 3px solid red; */
+        width: 1000px !important;
+    }
+
+    #main_pic_3{
+        background-image: url("../images/pic_sub3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1000px;
+        height: 300px;
+        margin-top: -70px;
+        /* border: 3px solid red; */
+    }
+    
+    #sub4_sec1{
+        height: 600px;
+        margin-top: 40px;
+        position: relative;
+    }
+    #gleen_map1{
+        font-size: 2em;
+        display: inline-block;
+        color: #333;
+    }
+    #map_text1{
+        display: inline-block;
+    }
+    #map_map{
+        display: flex;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+    #main_map{
+        flex: 1;
+    }
+    #sub4_map_text{
+        flex: 1;
+        /* border: 3px solid blue; */
+    }
+    #map_logo>span{
+        border-bottom: 1px solid black; 
+    }
+    #sub4_address{
+        margin-top: 25px;
+    }
+    #address_1{
+        margin-left: 50px;
+    }
+    #come_gleen_name{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #come_gleen{
+        /* background-color: rgb(230, 229, 229); */
+        width: 100%;
+        /* border: 1px solid blueviolet; */
+        padding: 20px 0;
+    }
+    #sub4_adderss div{
+        margin-bottom: 10px;
+    }
+    .addr{
+        color: #492e1f;
+        font-weight: bold;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    #close{
+        margin-left: 89px;
+    }
+    /* -----------------------------------------service */
+    #service_name{
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    #service{
+        padding: 20px 0 20px 50px;
+        width: 100%;
+    }
+    
+    .balloon_box>img{
+        width: 40px;
+    }
+
+    .balloon_box{
+        display: inline-block;
+        margin-right: 20px;
+        width: 70px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #balloonBox {
+        display: inline-flex;
+        /* width: 600px; */
+        /* border: 1px solid red; */
+    }
+     /* .balloon_box {
+        border: 1px solid black;
+        width: 70px;
+        text-align: center;
+        cursor: pointer;
+    }  */
+    .balloon_text {
+        /* border: 3px solid red; */
+        position: absolute;
+        top: 438px;
+        left: 610px;
+        /* display: none; */
+        opacity: 0;
+        transition: all .7s;
+        font-weight: bold;
+        color: #492e1f;
+    }
+    #balloon {
+        width: 370px;
+        height: 50px;
+        background: #fcd173;
+        border-radius: 10px;
+        position: relative;
+        top: 15px;
+        left:0;
+    }
+    #triangle {
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-bottom: 20px solid #fcd173;
+        /* border-top: 20px solid red; */
+        position: absolute;
+        top:-25px;
+        left: 35px;
+        margin-left: -10px;
+        transition: all .7s;
+    }
+    
+    /* -----------------------------------------service */
+    #slide_gallery{
+        /* border: 3px solid red; */
+        width: 70%;
+        margin: 0 auto;
+        height: 550px;
+    }
+
+    /* -----------------------------------------gleener */
+
+    #gleener{
+        position: relative;
+        margin-top: 50px;
+    }
+
+    #gleener1{
+        background-image: url("../images/gleener_1.jpg");
+        width: 250px;
+        left: -300px;
+        top: -50px;
+    }
+
+    #gleener2{
+        background-image: url("../images/gleener_2.jpg");
+        width: 250px;
+        left: -50px;
+        top: 210px;
+    }
+
+    #gleener3{
+        background-image: url("../images/gleener_3.jpg");
+        width: 250px;
+        left: 200px;
+        top: -30px;
+    }
+
+    #gleener4{
+        background-image: url("../images/gleener_4.jpg");
+        width: 250px;
+        left: 450px;
+        top: 210px
+    }
+
+    .gleener{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        /* border: 3px solid violet; */
+    }
+
+    #sub4_sec3{
+        /* border: 3px solid red; */
+        height: 570px;
+    }
+    
+    .gleener_text{
+        font-size: .8em;
+        position: absolute;
+    }
+    
+    #gleener1_text{
+        /* border: 1px solid blue; */
+        top: 270px;
+        left: -280px;
+        text-align: right;
+        margin-left: 20px;
+        /* padding-right: 10px; */
+    }
+    
+    #gleener2_text{
+        /* border: 3px solid salmon; */
+        width: 200px;
+        top: -20px;
+        left: -50px;
+    }
+    
+    #gleener3_text{
+        /* border: 1px solid red; */
+        width: 200px;
+        text-align: right;
+        margin-left: 10px;
+        top: 270px;
+        left: 230px;
+    }
+    
+    #gleener4_text{
+        width: 200px;
+        top: 0px;
+        left: 470px;
+    }
+    
+    #copy{
+        /* border: 1px solid red; */
+        margin-top: -20px;
+    }
+    
+
+}
